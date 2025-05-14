@@ -43,11 +43,14 @@ const ChatContainer = () => {
 
 
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
-        {messages.map((message) => (
+        {messages.map((message,index) => {
+
+           const isLastMessage = index === messages.length - 1;
+          return(
           <div
             key={message._id}
             className={`chat ${message.senderId === authUser._id ? "chat-end" : "chat-start"}`}
-            ref={messageEndRef}
+             ref={isLastMessage ? messageEndRef : null} 
           >
             <div className=" chat-image avatar">
               <div className="size-10 rounded-full border">
@@ -77,7 +80,8 @@ const ChatContainer = () => {
               {message.text && <p>{message.text}</p>}
             </div>
           </div>
-        ))}
+        );
+})}
       </div >
 
       
