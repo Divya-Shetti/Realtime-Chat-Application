@@ -112,6 +112,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-**Your Name**  
+**Divyashree Shetti**  
 [GitHub](https://github.com/Divya-Shetti)  
 [LinkedIn]([https://www.linkedin.com/in/divyashree-shetti-00b97826a/])
