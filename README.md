@@ -45,7 +45,7 @@ A full-stack real-time chat application developed using the MERN stack and Socke
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/chat-app.git
+git clone https://github.com/Divya-Shetti/Realtime-Chat-Application.git
 cd chat-app
 ```
 
